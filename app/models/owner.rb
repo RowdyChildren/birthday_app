@@ -5,7 +5,7 @@ class Owner
 	end
 	
 	def birthdate
-		birthdate = Date.new(1997, 11, 19)
+		birthdate = Date.new(1897, 11, 19)
 	end
 	
 	def countdown
@@ -19,7 +19,7 @@ class Owner
 		elsif birthday < today
 			countdown = (birthday.next_year - today).to_i
 		elsif birthday == today
-			return "Happy Birthday"
+			return "Congratulate your mom on giving birth to a lovely human like you."
 		end
 
 	end
